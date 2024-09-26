@@ -2,6 +2,7 @@
     "runOnSave.defaultRunIn": "terminal",
     "files.associations": {
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "random": "cpp"
     }
 }
