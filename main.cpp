@@ -1,17 +1,15 @@
 #include <iostream>
 using namespace std;
+
 int main() {
+    int a;
 
-    int a,b,c,s1,s2,s3;
-
+    cout << "ievadi skaitli no 5 lidz a? ";
     cin >> a;
-    cin >> b;
-    cin >> c;
 
-    if(a<b) {
-        s1=a;
-    } else if()
-
+    for(int i=5; i<=a; i++) {
+        cout << i << endl;
+    }
     return 0;
     
 }
