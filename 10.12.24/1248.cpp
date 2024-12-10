@@ -19,21 +19,21 @@ int main() {
     while(true) {
 
         for(int i = 0; i<10; i++) {
-            cout << "[" << i+1 << "] " << rndmasivs[i] << endl;
+            cout << "[" << i << "] " << rndmasivs[i] << endl;
         }
 
         cout << endl;
 
-        cout << "kuru pec kartas velies nomainit?: ";
+        cout << "kuru pec kartas velies nomainit?: [0-9] ";
         cin >> kurs;
 
         cout << "uz ko?: ";
         cin >> uzko;
 
-        rndmasivs[kurs-1] = uzko;
+        rndmasivs[kurs] = uzko;
 
         for(int i = 0; i<10; i++) {
-            cout << "[" << i+1 << "] " << rndmasivs[i] << endl;
+            cout << "[" << i << "] " << rndmasivs[i] << endl;
         }
 
         cout << endl;
